@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>News</title>
+</head>
+<body>
+	<h1>main page</h1>
+	<ol>
+		{% for story in stories %}
+		<li>{{story.title}}</li>
+		{% endfor %}
+	</ol>
+</body>
+</html>
